@@ -20,7 +20,7 @@
 
 === Introdução
 
-Explicação sobre o que é o Git, plataformas de hospedagem de repositórios e suas diferenças.
+Apresentação; Explicação sobre o que é o Git, plataformas de hospedagem de repositórios e suas diferenças.
 
 === Instalação
 
