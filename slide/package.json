@@ -8,6 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
+    "@remixicon/vue": "^4.9.0",
     "@slidev/cli": "^52.15.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
