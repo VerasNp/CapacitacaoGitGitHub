@@ -29,7 +29,7 @@ Instalação do Git em ambiente Windows, Linux e MacOS.
 
 === Fluxo de trabalho
 
-Explicação sobre o fluxo de trabalho do git; Estágios de um arquivo track; Analogia do fotógrafo.
+Explicação sobre o fluxo de trabalho do Git; Estágios de um arquivo track; Analogia do fotógrafo.
 
 === Comandos básicos
 
@@ -37,10 +37,14 @@ Projeto do livro e apresentação dos comandos `add`, `commit`, `status`, `log` 
 
 === Overview da plataforma GitHub
 
-Apresentação da plataforma; Repositórios; Configurações de um repositório; Projects; Comandos `clone`, `push` e `pull`.
+Apresentação da plataforma; Criação de repositórios; Comandos `clone`, `push` e `pull`.
+
+=== GitHub Intermediário
+
+Projects; Review e Pull Requests; Configuração do projeto;
 
 === Intermediário
 
-Conceito de _branches_; Conceito de _merge_; Ocorrência de conflitos e correções; Desfazer operações; Forks.
+Conceito de _branches_; Conceito de _merge_; Conceito de _rebase_; Ocorrência de conflitos e correções; Desfazer operações; .
 
 === Finalização
