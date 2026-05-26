@@ -13,7 +13,8 @@
   [1º], [Git], [Instalação],
   [1º], [Git], [Fluxo de trabalho],
   [1º], [Git], [Comandos básicos],
-  [2º], [GitHub], [Overview],
+  [1º], [GitHub], [Overview],
+  [2º], [GitHub], [Intermediário],
   [2º], [Git + GitHub], [Intermediário],
   [2º], [Finalização], [Finalização],
 )

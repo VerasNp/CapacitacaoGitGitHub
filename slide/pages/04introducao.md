@@ -1,6 +1,2 @@
----
-title: Introdução
----
-
 # Introdução
 

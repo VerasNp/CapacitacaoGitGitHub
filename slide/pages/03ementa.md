@@ -2,6 +2,8 @@
 layout: two-cols
 ---
 
+<Toc />
+
 # Ementa
 
 1. Introdução
