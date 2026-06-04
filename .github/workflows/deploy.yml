@@ -28,9 +28,11 @@ jobs:
 
       - name: Install dependencies
         run: nci
+        working-directory: ./slide
 
       - name: Build
         run: nr build --base /${{github.event.repository.name}}/
+        working-directory: ./slide
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
