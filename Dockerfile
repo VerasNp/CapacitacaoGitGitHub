@@ -1,7 +1,6 @@
-FROM node:lts-alpine
-WORKDIR /app
-COPY slide/package*.json ./
-RUN npm install
+FROM tangramor/slidev:latest
+WORKDIR /slidev
 COPY slide/ .
 EXPOSE 3030
-CMD ["npx", "slidev", "--remote", "slides.md"]
+ENV NPM_MIRROR="https://registry.npmmirror.com"
+CMD ["slidev", "--remote", "slides.md"]
