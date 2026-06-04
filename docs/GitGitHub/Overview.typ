@@ -29,15 +29,53 @@ Em sua conta crie um novo repositório, escolha um nome, deixe ele público se d
 
 Algumas configurações iniciais são possíveis, dentre elas:
 - Escolha de visibilidade;
-- Início com template;
-- Adicionar `README.md`: Arquivo que fica na raiz do projeto e serve como uam descrição;
-- Adicionar `.gitignore`: Conjunto de  arquivos que o git não deve versionar;
-- Adicionar licença: Não entra no escopo desse curso.
 
-=== Sincronização
+=== `README.md`
 
-Com o repositório criado volte no seu projeto e na raiz do projeto use o comando `git remote add origin <url>` para poder assim adicionar...
+Uma descrição do projeto
 
-Agora use o comando `git push origin <branch_name>` para enviar as alterações para o repositório criado no GitHub.
+É possível fazer a edição diretamente pelo GitHub.
+
+=== O `.gitignore`
+
+A partir dele é possível especificar arquivos os quais não devem ser versionados pelo Git.
+
+=== Sincronização com `git clone`
+
+A partir do repositório criado vamos fazer a sincronização usando o comando `git clone`. Em uma pasta, abra o terminal e execute `git clone <url>`.
+
+#figure(
+  image("../public/imgs/GitCloneScreenshot.png", width: 80%),
+)
+
+=== Envio de alterações com `git push`
+
+#columns(2, gutter: 8pt)[
+  Vamos adicionar algo para que possamos assim enviar alterações para o nosso repositório remoto no GitHub.
+
+  Na pasta clonada crie um arquivo `index.md`, faça o `git status`, `git add index.md`, `git commit -m "Adição de arquivo"`.
+
+  Agora use o comando `git push` para enviar as alterações para o repositório criado no GitHub.
+
+  #colbreak()
+
+  #figure(
+    image("../public/imgs/GitPushScreenshot.png", width: 80%),
+  )
+]
 
 Cheque na página que os arquivos existente localmente foram enviados e com isso você poderá fazer o download dele em outra máquina.
+
+=== Atualizando o local com `git pull`
+
+A partir do GitHub faremos a criação de um arquivo e então atualizar o repositório local.
+
+No GitHub crie um `footer.md` e commite.
+
+No repositório local perceba a não existência do arquivo que foi criado, assim vamos usar o comando `git pull` para trazer informações de novas mudanças.
+
+#figure(
+  image("../public/imgs/GitPullScreenshot.png")
+)
+
+Observe os commits com `git log`.

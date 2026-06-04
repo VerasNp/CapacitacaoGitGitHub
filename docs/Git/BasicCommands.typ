@@ -2,7 +2,7 @@
 #import "@preview/codly-languages:0.1.1": *
 #show: codly-init.with()
 
-= Comandos básicos
+= Comandos básicos e fluxo de trabalho
 
 Vamos inciar montando a estrutura inicial do nosso projeto a ser utilizado:
 
@@ -121,3 +121,11 @@ O git log pode ser utilizado para ver o histórico de commits realizados, trazen
 #figure(
   image("../public/imgs/GitLogScreenshot.png", width: 80%),
 )
+
+== `git checkout`
+
+#columns(2, gutter: 8pt)[
+  Pode ser usado para navegar entre versões consolidadas.
+  #colbreak()
+  Para voltar ao "normal" basta executar `git checkout <branch>`.
+]

@@ -1,9 +1,4 @@
 <script setup lang="ts">
-
-const props = defineProps<{
-    text: string;
-    images?: ChildNode[]
-}>()
 </script>
 
 <template>
