@@ -4,4 +4,4 @@ COPY slide/package*.json ./
 RUN npm install
 COPY slide/ .
 EXPOSE 3030
-CMD npx slidev --remote=$SLIDEV_PASSWORD slides.md
+CMD ["npx", "slidev", "--remote", "slides.md", "--host", "0.0.0.0"]
