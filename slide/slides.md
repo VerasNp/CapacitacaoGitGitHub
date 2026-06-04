@@ -16,3 +16,9 @@ src: ./pages/05.md
 ---
 src: ./pages/06.md
 ---
+---
+src: ./pages/ComandosBasicos/07.md
+---
+---
+src: ./pages/ComandosBasicos/08.md
+---
