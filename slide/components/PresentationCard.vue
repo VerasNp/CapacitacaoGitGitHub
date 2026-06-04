@@ -23,11 +23,25 @@ const props = defineProps<{
             <div>
                 <span class="opacity-70">{{ props.role }}</span>
             </div>
-            <div text-sm flex items-center justify-center gap-2 mt-4>
-                <RiGithubFill /><a :href="props.gitHub.url" underline decoration-dashed font-mono decoration-zinc-300>{{
-                    props.gitHub.placeholder }}</a>
-                <RiLinkedinBoxFill /><a :href="props.linkedIn.url" underline decoration-dashed font-mono
-                    decoration-zinc-300>{{ props.linkedIn.placeholder }}</a>
+            <div text-sm flex items-center justify-center gap-20 mt-4>
+                <div class="flex flex-col">
+                    <div class="text-center">
+                        <a :href="props.gitHub.url" underline decoration-dashed font-mono decoration-zinc-300>{{
+                            props.gitHub.placeholder }}</a>
+                    </div>
+                    <div>
+                        <img src="./../public/imgs/QRCodeGitHub.svg" class="w-20">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="text-center">
+                        <a :href="props.linkedIn.url" underline decoration-dashed font-mono decoration-zinc-300>{{
+                            props.linkedIn.placeholder }}</a>
+                    </div>
+                    <div>
+                        <img src="./../public/imgs/QRCodeLinkedIn.svg" class="w-20">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

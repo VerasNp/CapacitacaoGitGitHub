@@ -9,9 +9,6 @@
             </p>
             <div class="flex gap-5">
                 <div>
-                    <img src="./../public/imgs/GitHubCreateRepositoryScreenshot.png">
-                </div>
-                <div>
                     <img src="./../public/imgs/GitHubVueRepositoryScreenshot.png">
                 </div>
             </div>
