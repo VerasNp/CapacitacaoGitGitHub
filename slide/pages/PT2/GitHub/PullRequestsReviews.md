@@ -6,7 +6,7 @@ transition: slide-left
 
 ## Pull requests
 
-Solicitação de junção de mudanças de uma brach para a outra. Essa ação estará sujeita a revisões, discussões e aprovação por parte dos colaboradores do projeto.
+Solicitação de junção de mudanças de uma branch para a outra. Essa ação estará sujeita a revisões, discussões e aprovação por parte dos colaboradores do projeto.
 
 <div>
     <img src="./../../../public/imgs/GitHubPullRequestScreenshot.png">

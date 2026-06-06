@@ -1,6 +1,4 @@
 ---
-drawings:
-  enabled: false
 src: ./pages/PT2/01.md
 ---
 ---
